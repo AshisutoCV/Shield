@@ -1,5 +1,8 @@
-
 farmservice:  
   enabled: true
 consul:
   enabled: true
+  server:
+    nodeSelectorKey: shield-role/farm-services
+    nodeSelectorValue: accept
+    forceNodeLabels: "yes"
