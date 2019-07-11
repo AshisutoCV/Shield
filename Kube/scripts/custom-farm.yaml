@@ -6,3 +6,5 @@ consul:
     nodeSelectorKey: shield-role/farm-services
     nodeSelectorValue: accept
     forceNodeLabels: "yes"
+#  client:    
+#    hostPath: '/var/consul-data-farm'
